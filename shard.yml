@@ -1,0 +1,15 @@
+name: udp_test
+version: 0.1.0
+
+authors:
+  - Edith Boles <tirededith@gmail.com>
+
+targets:
+  udp_test_server:
+    main: src/udp_test_server.cr
+  udp_test_client:
+    main: src/udp_test_client.cr
+
+crystal: 1.6.0
+
+license: MIT
